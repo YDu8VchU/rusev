@@ -1,40 +1,42 @@
   body {
-    font: 20px Montserrat, sans-serif;
-    line-height: 1.6;
-    color: #f5f6f7;
-  }
-  p {font-size: 20px;}
-  .margin {margin-bottom: 40px;}
-  .bg-1 { 
-    background-color: gray;
+	background-color: white;
 	background-image: url('../img/back.jpg');
 	background-position: center; 
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
+    font: 20px Montserrat, sans-serif;
+    line-height: 1.8;
+    color: #f5f6f7;
+  }
+  p {font-size: 22px;}
+  .margin {margin-bottom: 40px;}
+  .bg-1 {
     color: #ffffff;
   }
   .bg-2 { 
-	background: rgba(150, 150, 150, 0.3);
+	background-color: rgba(150, 150, 150, 0.2);
 	color: white;
 	border: 1px solid black;
-	text-shadow: 0px 0 black, 0 0px black, 1px 0 black, 0 1px black;
+	text-shadow: 2px 2px #000000;
   }
   .bg-3 { 
-	background: rgba(100, 100, 50, 0.3);
+	background-color: rgba(100, 100, 50, 0.3);
     color: white;
-	text-shadow: 0px 0 black, 0 0px black, 1px 0 black, 0 1px black;
+	text-shadow: 2px 2px #000000;
 	border: 1px solid black;
   }
   .bg-4 { 
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.98);
     color: gray;
+	border: 1px solid black;
   }
   .container-fluid {
     padding-top: 30px;
     padding-bottom: 50px;
   }
   .navbar {
+	background-color: rgba(0, 0, 0, 0.95);
     padding-top: 1px;
     padding-bottom: 1px;
     border: 0;
@@ -59,4 +61,7 @@
 	font-size: 30px;
 	letter-spacing: 1px;
 	text-shadow: 2px 2px #000000;
+	}
+   .italictext {
+    font-style: italic;
 	}
