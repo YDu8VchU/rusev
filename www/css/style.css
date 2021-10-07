@@ -1,0 +1,62 @@
+  body {
+    font: 20px Montserrat, sans-serif;
+    line-height: 1.6;
+    color: #f5f6f7;
+  }
+  p {font-size: 20px;}
+  .margin {margin-bottom: 40px;}
+  .bg-1 { 
+    background-color: gray;
+	background-image: url('../img/back.jpg');
+	background-position: center; 
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+    color: #ffffff;
+  }
+  .bg-2 { 
+	background: rgba(150, 150, 150, 0.3);
+	color: white;
+	border: 1px solid black;
+	text-shadow: 0px 0 black, 0 0px black, 1px 0 black, 0 1px black;
+  }
+  .bg-3 { 
+	background: rgba(100, 100, 50, 0.3);
+    color: white;
+	text-shadow: 0px 0 black, 0 0px black, 1px 0 black, 0 1px black;
+	border: 1px solid black;
+  }
+  .bg-4 { 
+    background-color: black;
+    color: gray;
+  }
+  .container-fluid {
+    padding-top: 30px;
+    padding-bottom: 50px;
+  }
+  .navbar {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 15px;
+    letter-spacing: 5px;
+  }
+  .navbar-nav  li a:hover {
+    color: #1abc9c !important;
+  }
+  .footer {
+	padding-top: 10px;
+    padding-bottom: 1px;
+  }
+  .mariorusev {
+	font-size: 50px;
+	letter-spacing: 2px;
+	text-shadow: 4px 4px #000000;
+	}
+  .biznesopisanie {
+	font-size: 30px;
+	letter-spacing: 1px;
+	text-shadow: 2px 2px #000000;
+	}
