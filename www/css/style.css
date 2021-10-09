@@ -1,6 +1,6 @@
   body {
-	background-color: white;
 	background-image: url('../img/back.jpg');
+	background-image: image-set( url('../img/back.avif') 1x  );
 	background-position: center; 
 	background-repeat: no-repeat;
 	background-attachment: fixed;
