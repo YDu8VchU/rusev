@@ -1,7 +1,5 @@
 runtime: python39
 
-default_expiration: "1d 1h"
-
 handlers:
 - url: /
   static_files: www/index.html
