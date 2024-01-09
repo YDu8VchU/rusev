@@ -48,9 +48,11 @@
   .navbar-nav  li a:hover {
     color: #1abc9c !important;
   }
-  .footer {
-	padding-top: 10px;
-    padding-bottom: 1px;
+  .footertext {
+	font-size: 14px;
+	text-align: right;
+	position: relative;
+	left: -1%;
   }
   .mariorusev {
 	font-size: 50px;
