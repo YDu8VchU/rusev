@@ -87,6 +87,7 @@
   }
   .footertext a {
     color: #337ab7;
+    text-decoration: none;
   }
   .mariorusev {
 	font-size: 50px;
